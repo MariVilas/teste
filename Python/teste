@@ -1,0 +1,17 @@
+
+valor = int(input('Digite o valor:'))
+if valor < 10:
+  print('\033[4;31mSomente no Dinheiro')
+elif valor < 50:
+  print('\033[4;35mSodexo ou Alelo')
+else:
+  print('\033[4;33mVisa ou Mastercard')
+
+print('\033[4;32mObrigada pela compra!')
+
+
+
+
+
+
+
